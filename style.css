@@ -48,7 +48,7 @@ p {
   }
   header > a {
     margin-left: 5px;
-    padding-top;: 10px;
+    padding-top: 10px;
   }
   nav {
     display: flex;
@@ -61,42 +61,72 @@ p {
     width: 80%;
     align-items: center;
   }
-  .logo{
+  .logo {
     width: 20%;
-
   }
-  .button{
+  .button {
     width: 6rem;
     padding: 10px 10px;
     font-size: 14px;
   }
-  main{
+  main {
     display: flex;
     flex-direction: row;
   }
-  aside{
-    margin-top: 100px;;
+  aside {
+    margin-top: 100px;
     width: 50%;
   }
-  div{
-    display: flex;
-    width: 50%;
-  }
-  .largeC{
-    display: flex;
-    flex-wrap: wrap;
-    height: 200px;
-    width: 200px;
-    background-color: rgba(247, 136, 167, 0.6);
-    border-radius: 50%;
-  }
-  
+}
+aside > a {
+  position: relative;
+  top: 350px;
+  left: 650px;
+}
+div {
+  display: flex;
+  height: 50%;
+  width: 50%;
+}
+div > span {
+  position: relative;
 
-  /* a {
+  left: 40px;
+}
+.largeC {
+  position: relative;
+  top: 150px;
+  left: 450px;
+  height: 200px;
+  width: 200px;
+  background-color: rgba(247, 136, 167, 0.6);
+  border-radius: 100%;
+}
+.mediumC {
+  position: relative;
+  top: 265px;
+  left: 330px;
+  height: 180px;
+  width: 180px;
+  background-color: rgba(247, 193, 162, 0.7);
+  border-radius: 100%;
+}
+.smallC {
+  position: relative;
+
+  height: 125px;
+  width: 125px;
+  background-color: rgba(207, 130, 213, 0.6);
+  border-radius: 100%;
+  top: 175px;
+  left: 205px;
+}
+
+/* a {
     display: flex;
     justify-content: space-between;
   } */
-  /* ul {
+/* ul {
     display: flex;
     justify-content: center;
     align-content: space-between;
@@ -110,7 +140,6 @@ p {
   }
   .button {
     /* width: 20%; */
-  /* pading: none; */
-  /* font-size: 10px; */
-  /* }  */
-}
+/* pading: none; */
+/* font-size: 10px; */
+/* }  */
